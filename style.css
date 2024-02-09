@@ -78,3 +78,8 @@ p{
     font-weight: bold;
     margin-top: 2rem;
 }
+
+span{
+    font-family: "Bodoni MT Black",sans-serif;
+    color:pink;
+}
