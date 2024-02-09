@@ -21,6 +21,8 @@ h1 {
     color: black;
     font-family: "JetBrains Mono", sans-serif;
     background-color: #FFFFFF;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
 }
 
 .image {
