@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #FFFF;
+    font-family: "Roboto Light", sans-serif;
+}
+
+.image {
+    width: 20rem;
+    height: 25rem;
+    border-radius: 2rem;
+    background-image: url("./img/photo1706687871.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.btns {
+    position: relative;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+]
+}
+
+button {
+    padding: 1rem 3rem;
+    box-shadow: 39px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    border: none;
+    border-radius: 10%;
+    border: 1px solid gray;
+}
+
+#yessir {
+    margin-left: 13rem;
+    background-color: #FFF;
+    transition: 0.3s all ease-in-out;
+}
+
+body {
+    background-color: deeppink;
+}
+
+#nooo {
+    position: absolute;
+    left: 0;
+}
+
+#yessir:hover {
+    background-color: hotpink;
+}
