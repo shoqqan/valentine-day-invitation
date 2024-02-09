@@ -13,18 +13,21 @@ article {
 }
 
 h1 {
+    width: fit-content;
+    display: flex;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: #FFFF;
+    color: black;
     font-family: "JetBrains Mono", sans-serif;
+    background-color: #FFFFFF;
 }
 
 .image {
     width: 20rem;
     height: 25rem;
     border-radius: 2rem;
-    background-image: url("./img/photo1706687871.jpg");
+    background-image: url("./img/cutegif.gif");
     background-position: center;
     background-size: cover;
 }
@@ -53,6 +56,10 @@ button {
 
 body {
     background-color: deeppink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #nooo {
