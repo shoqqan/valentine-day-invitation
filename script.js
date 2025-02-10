@@ -1,7 +1,7 @@
 let leftPos = 0
 let bottomPos = 0
 document.getElementById('yessir').addEventListener('click', () => {
-    alert('Что вершит судьбу человечества в этом мире? Некое незримое существо или закон, подобно длани господней, парящей над миром? По крайней мере, истинно то, что человек не властен даже над своей волей')
+    alert('Congratulations! You have been invited to a Valentine\'s Day dinner. Please RSVP by February 10th. We hope to see you there!')
 })
 document.getElementById('nooo').addEventListener('mouseover', () => {
     leftPos = Math.floor(Math.random() * (50 - (-50) + 1)) + (-50);
